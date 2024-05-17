@@ -1,0 +1,40 @@
+.body{
+    background-color:#414141;
+    color:#fff;
+    text-align:center;
+    width:400px;
+    margin:auto;
+}
+
+.upperDiv{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    text-align:left;
+    border: 2px solid;
+    margin-top:50px;
+    padding:20px;
+    border-radius:16px;
+}
+label{
+    font-size:16px;
+    font-weight:bold;
+}
+
+input{
+    height:20px;
+    border-radius:10px;
+    padding:10px;
+    font-size:14px;
+    font-weight:semibold;
+}
+
+button{
+    height:40px;
+    width:100px;
+    border-radius:10px;
+    background-color:orange;
+    font-size:16px;
+    font-weight:bold;
+    margin: 20px auto;
+}
